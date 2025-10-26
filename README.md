@@ -1,4 +1,5 @@
-# Image Manipulation and Enhancement
+# Java PixelPro
+## Image Manipulation and Enhancement :coffee: :national_park:
 
 ## 1. Overview
 This Java application is designed using the Model-View-Controller (MVC) pattern to process images based on text commands provided by the user. The main components of the application include classes and interfaces related to image processing and command handling.
