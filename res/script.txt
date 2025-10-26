@@ -1,0 +1,20 @@
+load res/fox.jpg fox
+compress 50 fox fox_compressed
+save res/fox_compressed.jpg fox_compressed
+load res/boston.jpg
+compress 50 boston boston_compressed
+save res/boston_compressed.jpg boston_compressed
+color-correct fox fox_color_corrected
+save res/fox_color_corrected.jpg fox_color_corrected
+levels-adjust fox fox_level_adjusted_5_10_15 5 10 15
+save res/fox_level_adjsuted_5_10_15.jpg fox_level_adjusted_5_10_15
+histogram fox fox_histogram
+save res/fox_histogram.jpg fox_histogram
+histogram fox_color_corrected fox_color_corrected_histogram
+save res/fox_color_corrected_histogram.jpg fox_color_corrected_histogram
+histogram fox_level_adjusted_5_10_15 fox_level_adjusted_5_10_15_histogram
+save res/fox_level_adjusted_5_10_15_histogram.jpg fox_level_adjusted_5_10_15_histogram
+split-view fox fox_split_view_sepia sepia 70
+save res/fox_split_view_sepia.jpg fox_split_view_sepia
+split-view fox fox_levels_adjust_5_10_15_split_view levels-adjust 30 5 10 15
+save res/fox_levels_adjust_5_10_15_split_view.jpg fox_levels_adjust_5_10_15_split_view

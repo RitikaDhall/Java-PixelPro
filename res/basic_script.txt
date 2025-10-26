@@ -1,0 +1,4 @@
+load res/fox.jpg f
+sepia f fs
+histogram fs fh
+save res/fox_sepia_histogram.jpg fh
